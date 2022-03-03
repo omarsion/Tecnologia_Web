@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>FizzBuzz</title>
+</head>
+<body>
+
+	
+
+	<h1>FIZZ BUZZ</h1>
+	<p>Este algoritmo se basa en que se debe hacer un contador desde el número 1 al número 100, en orden correlativo, 
+        pero cada vez que un número sea multiplo de 3, debe decir Fizz y cada vez que un número sea múltiplo de 5, debe decir Buzz, 
+        en el caso que un número sea múltiplo de 3 y 5, debe decir FizzBuzz, si el número 
+		no es multiplo de 3 o 5 debe mostrar solo el numero</p>
+	
+	
+	<script>
+	
+
+
+    for(i = 1; i <= 100; i++)
+	{
+        if ((i % 3 == 0) && (i % 5 == 0)){
+            document.write(i + ".-"+ "FIZZBUZZ" + '<br>');  
+        }
+        else {
+            if (i % 3 == 0)
+        document.write(i + ".-"+ "BUZZ" + '<br>');
+        else {
+            if (i % 5 == 0)
+        document.write(i + ".-"+ "FIZZ" + '<br>');
+        else {
+            document.write(i + ".-" + "<br>")
+        }
+        }
+        }
+    
+     
+	}
+
+
+	</script>
+}
+<style>
+	body{
+		font-size:50px;
+		color:rgb(238, 136, 136);
+	}
+</style>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ciclo While</title>
+</head>
+<body>
+
+	
+
+	<h1>Fecha Actual</h1>
+	<p>Desarrolle una función en JavaScript que muestre la fecha actual. </p>
+	
+	
+        <script>
+			var meses = new Array ("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre");
+			var diasSemana = new Array("Domingo","Lunes","Martes","Miércoles","Jueves","Viernes","Sábado");
+			var f=new Date();
+			document.write(diasSemana[f.getDay()] + ", " + f.getDate() + " de " + meses[f.getMonth()] + " de " + f.getFullYear());
+		</script>
+
+<style>
+	body{
+		font-size:50px;
+		color:rgb(44, 215, 238);
+	}
+</style>
+</body>
+</html>
