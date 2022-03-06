@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Web</title>
+    <link rel="stylesheet" href="css/estilosproyecto.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header" id="inicio">
+        <img class="hamburguer" src="img_icon/hamburguesa.svg" alt="">
+        <nav class="menu-navegacion">
+                <a href="#inicio">Inicio</a>
+                <a href="#servicio">Tipos de servidores</a>
+                <a href="#galeria">Ilustraciones de un Servidor Web</a>
+                <a href="#expertos">Informacion</a>
+                <a href="#footer">Contactos Estudiantes</a>
+        </nav>
+        <div class="contenedor head">
+            <h1 class="titulo">Servidor Web</h1>
+            <p class="copy">Un servidor web es un software que forma parte del servidor y tiene como misión principal devolver información (páginas) cuando recibe peticiones por parte de los usuarios.
+                En otras palabras, es el software que permite que los usuarios que quieren ver una página web en su navegador puedan hacerlo.
+                </p>
+        </div>
+    </header>
+    <main>
+        <section class="services contenedor" id="servicio">
+            <h2 class="subtitulo">Tipos de servidores</h2>
+            <div class="contenedor-servicio">
+                <img src="img_icon/granja-servidores.jpg" alt="">
+                <div class="checklist-servicio">
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">1</span>Servidor HTTP Apache</h3>
+                        <p> El servidor HTTP Apache es un software de código abierto y gratuito, que durante años ha sido el software más utilizado por los servidores web, rivalizando actualmente con Nginx.
+                            Además destaca por ser multiplataforma, siendo compatible con sistemas operativos como Linux, Window, IOS, Unix, etc.
+                            </p>
+                    </div>
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">2</span>Servidor Nginx</h3>
+                        <p> Al igual que con Apache estaríamos ante un software de código abierto y multiplataforma compatible con Window, IOS, Linux, etc. Tiene una versión de pago además de la gratuita.
+                            Este tipo de servidor web es conocido por su buen funcionamiento cuando tiene que gestionar un número alto de visitas simultáneas, ya que los usuarios no perciben retraso en la carga de la página aunque se esté produciendo ese acceso concurrente.
+                            </p>
+                    </div>
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">3</span>Servidor Microsoft IIS</h3>
+                        <p> Este tipo de servidor web está desarrollado por Microsoft y, en el caso de que se necesite integrar herramientas de Microsoft, sería una alternativa recomendable por la compatibilidad que obtendríamos.
+                            Se ejecuta con Windows gracias a la tecnología IIS (Internet Information Services) y es compatible con páginas programadas en ASP (Active Server Pages) o .NET, a diferencia del resto de servidores web compatibles con Linux.
+                            </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="gallery" id="galeria">
+            <div class="contenedor">
+                <h2 class="subtitulo">Galeria</h2>
+                <div class="contenedor-galeria">
+                    <img src="img_icon/cliente-servidor.jpg" class="img-galeria" alt="Hola">
+                    <img src="img_icon/proxy-img.jpg" class="img-galeria" alt="">
+                    <img src="img_icon/Qué-es-un-servidor-web-1024x768.jpg" class="img-galeria" alt="">
+                    <img src="img_icon/servidor-web.jpg" class="img-galeria" alt="">
+                    <img src="img_icon/Servidor-web_Cloud-Center-Andalucia_Cabecera.png" class="img-galeria" alt="">
+                    <img src="img_icon/servidores.jpg" class="img-galeria" alt="">
+                </div>
+            </div>
+            </section>
+            <div class="imagen-light">
+                <img src="img_icon/close.svg" alt="" class="close">
+                <img src="img_icon/proxy-img.jpg" alt="" class="agregar-imagen">
+            </div>
+            <section class="contenedor" id="expertos">
+                <h2 class="subtitulo">Mas Info:</h2>
+                <section class="experts">
+                    <div class="cont-expert">
+                        <img src="img_icon/pie_chart.svg" alt="">
+                        <h3 class="n-expert">Analisis</h3>
+                    </div>
+                    <div class="cont-expert">
+                        <img src="img_icon/search_engine.svg" alt="">
+                        <h3 class="n-expert">Google</h3>
+                    </div>
+                    <div class="cont-expert">
+                        <img src="img_icon/security.svg" alt="">
+                        <h3 class="n-expert">Seguridad Web</h3>
+                    </div>
+                </section>
+            </section>
+        </main>
+        <footer id="footer">
+            <div class="contenedor footer-content">
+                    <div class="contact-us">
+                        <h2 class="brand">Gracias</h2>
+                        <p>Redes sociales de los estudiantes</p>
+                    </div>
+                    <div class="social-media">
+                        <a href="./" class="social-media-icon">
+                            <i class='bx bxl-facebook'></i>
+                        </a>
+                        <a href="./" class="social-media-icon">
+                            <i class='bx bxl-twitter' ></i>
+                        </a>
+                        <a href="./" class="social-media-icon">
+                            <i class='bx bxl-instagram' ></i>
+                        </a>
+                    </div>
+            </div>
+            <div class="line"></div>
+            </footer>
+            <script src="js/menu.js"></script>
+            <script src="js/lightbox.js"></script>
+</body>
+</html>
